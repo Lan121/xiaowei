@@ -124,6 +124,7 @@ label.labelTa{
     background-color: white;
 }
 .thirdBox{
+    display: inline-block;
     text-align: center;
     width: 170px;
     padding-left: 10px;

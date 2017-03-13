@@ -1,0 +1,168 @@
+body{
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #333;
+}
+.topImg{
+    padding-left: 30px;
+    padding-top: 0;
+    float: left;
+    bottom: 30px;
+    height: 40px;
+}
+.topUL{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    margin: 0;
+}
+.topLI{
+    padding-left: 15px;
+    line-height: 50px;
+    display: inline;
+    font-size: x-small;
+}
+a:link, a:visited{
+    color: whitesmoke;
+}
+h2, h3{
+    color: darkgray;
+}
+.ceLan{
+    width: 260px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    background-color: white;
+    padding: 20px;
+}
+.clBT{
+    padding: 10px;
+    border-left: 3px gainsboro solid;
+    color: black;
+    height: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+span{
+    position: absolute;
+    font-size: x-small;
+    right: 190px;
+    font-weight: bold;
+}
+label{
+    position: absolute;
+    left: 120px;
+    font-size: x-small;
+    font-weight: bold;
+}
+input.text, input.password{
+    position: absolute;
+    margin-top: -3px;
+    line-height: 10px;
+    width: 120px;
+}
+label.radio{
+    position: absolute;
+    margin-top: -4px;
+}
+span.tips{
+    position: absolute;
+    left: 120px;
+    right: auto;
+    font-size: xx-small;
+    line-height: 20px;
+    color: grey;
+}
+select{
+    font-size: x-small;
+}
+label.hobby{
+    position: absolute;
+    margin-top: -5px;
+}
+input.hobby{
+    position: absolute;
+    margin-top: 3px;
+}
+label.labelTa{
+    position: relative;
+    left: 100px;
+}
+.inputBt{
+    width: 100%;
+    border-radius: 5px;
+    background-color: royalblue;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+.img1{
+    width: 200px;
+}
+.divLeft{
+    position: absolute;
+    margin-bottom: 40px;
+    right: 340px;
+    top: 70px;
+    left: 20px;
+}
+.first, .second, .third, .last{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+.thirdBox{
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 2px solid gainsboro;
+    margin:20px 20px;
+}
+.thirdImg{
+    width: 150px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: black;
+    text-align: left;
+    color: azure;
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+td{
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+.tdLast{
+    font-weight: bold;
+    padding: 5px;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
